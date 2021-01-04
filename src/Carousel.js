@@ -39,7 +39,6 @@ class Carousel extends React.Component{
                         //eslint-disable-next-line
                         <img key={photo}
                             onClick={this.handleIndexClick}
-                            ONkE
                             data-index={index}
                             src={photo}
                             className={index === active ? "active": ""}
